@@ -20,14 +20,17 @@ public class Cliente implements Serializable{
 	private String Apellido;
 	@Column(name="Sexo")
 	private String Sexo;
+	
 	@Column(name="Nacimiento")
 	private String Nacimiento;
-	@Column(name="Nacionalidad")
+	
+	/*@Column(name="Nacionalidad")
 	private String Nacionalidad;
 	@Column(name="Provincia")
 	private String Provincia;
 	@Column(name="Localidad")
 	private String Localidad;
+*/
 	@Column(name="Usuario")
 	private String Usuario;
 	@Column(name="Contraseña")
@@ -40,16 +43,16 @@ public class Cliente implements Serializable{
 	
 	public Cliente() {}
 
-	public Cliente(String nombre, String apellido, String sexo, String nacimiento, String nacionalidad,
-			String provincia, String localidad, String dni, String usuario, String contraseña,Boolean estado) {
+	public Cliente(String nombre, String apellido, String sexo, String nacimiento, /*String nacionalidad,
+			String provincia, String localidad,*/ String dni, String usuario, String contraseña,Boolean estado) {
 		super();
 		Nombre = nombre;
 		Apellido = apellido;
 		Sexo = sexo;
-		Nacimiento = nacimiento;
+		/*Nacimiento = nacimiento;
 		Nacionalidad = nacionalidad;
 		Provincia = provincia;
-		Localidad = localidad;
+		Localidad = localidad;*/
 		Usuario = usuario;
 		Contraseña = contraseña;
 		Dni = dni;
@@ -88,7 +91,7 @@ public class Cliente implements Serializable{
 		Nacimiento = nacimiento;
 	}
 
-	public String getNacionalidad() {
+	/*public String getNacionalidad() {
 		return Nacionalidad;
 	}
 
@@ -110,7 +113,7 @@ public class Cliente implements Serializable{
 
 	public void setLocalidad(String localidad) {
 		Localidad = localidad;
-	}
+	}*/
 	public String getUsuario() {
 		return Usuario;
 	}
@@ -145,7 +148,7 @@ public class Cliente implements Serializable{
 	@Override
 	public String toString() {
 		return "Nombre: "+ Nombre + ", Apellido: " + Apellido + ", Sexo: " + Sexo + ",  Nacimiento: " + Nacimiento
-				+ ", Nacionalidad: " + Nacionalidad + ", Provincia: " + Provincia + ",  Localidad: " + Localidad + ",  Dni: "
+				+ /*", Nacionalidad: " + Nacionalidad + ", Provincia: " + Provincia + ",  Localidad: " + Localidad + */",  Dni: "
 				+ Dni;
 	}
 }

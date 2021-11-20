@@ -62,9 +62,9 @@ public class DaoPersona implements InterfazDaoPersona {
 			cli.setApellido((String)obj[2]);
 			cli.setSexo((String)obj[3]);
 			cli.setNacimiento((String)obj[4]);
-			cli.setNacionalidad((String)obj[5]);
+		/*	cli.setNacionalidad((String)obj[5]);
 			cli.setProvincia((String)obj[6]);
-			cli.setLocalidad((String)obj[7]);
+			cli.setLocalidad((String)obj[7]);*/
 			cli.setUsuario((String)obj[8]);	
 			cli.setContraseña((String)obj[9]);	
 			cli.setEstado((Boolean)obj[10]);
@@ -165,9 +165,9 @@ public class DaoPersona implements InterfazDaoPersona {
 			cli.setApellido((String)obj[1]);
 			cli.setSexo((String)obj[2]);
 			cli.setNacimiento((String)obj[3]);
-			cli.setNacionalidad((String)obj[4]);
+			/*cli.setNacionalidad((String)obj[4]);
 			cli.setProvincia((String)obj[5]);
-			cli.setLocalidad((String)obj[6]);
+			cli.setLocalidad((String)obj[6]);*/
 			cli.setUsuario((String)obj[7]);	
 			cli.setDni((String)obj[8]);	
 			System.out.println(cli.toString());

@@ -111,9 +111,9 @@ public class ControladorCliente {
 		cliente.setSexo(Sexo);
 		cliente.setDni(Dni);
 		cliente.setNacimiento(Date);
-		cliente.setNacionalidad(Nacionalidad);
+	/*	cliente.setNacionalidad(Nacionalidad);
 		cliente.setLocalidad(Localidad);
-		cliente.setProvincia(Provincia);
+		cliente.setProvincia(Provincia);*/
 		cliente.setUsuario(Usuario);
 		cliente.setContraseña(Contraseña);
 		cliente.setEstado(true);
@@ -224,9 +224,9 @@ public class ControladorCliente {
 		cli.setSexo(Sexo);
 		cli.setDni(dni);
 		cli.setNacimiento(date);
-		cli.setNacionalidad(nacionalidad);
+		/*cli.setNacionalidad(nacionalidad);
 		cli.setProvincia(Provincia);
-		cli.setLocalidad(Localidad);
+		cli.setLocalidad(Localidad);*/
 		cli.setUsuario(usuario);
 		cli.setContraseña(contraseña);
 		cli.setEstado(true);
